@@ -14,11 +14,11 @@
 		D6A615771AAAA096006CCBF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A615761AAAA096006CCBF3 /* Images.xcassets */; };
 		D6A6157A1AAAA096006CCBF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A615781AAAA096006CCBF3 /* LaunchScreen.xib */; };
 		D6A615861AAAA096006CCBF3 /* CoreExceptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615851AAAA096006CCBF3 /* CoreExceptionTests.m */; };
-		D6A6159A1AAAA0A7006CCBF3 /* CoreExceptionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615911AAAA0A7006CCBF3 /* CoreExceptionConst.m */; };
-		D6A6159B1AAAA0A7006CCBF3 /* NSArray+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615931AAAA0A7006CCBF3 /* NSArray+Exception.m */; };
-		D6A6159C1AAAA0A7006CCBF3 /* NSMutableArray+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615951AAAA0A7006CCBF3 /* NSMutableArray+Exception.m */; };
-		D6A6159D1AAAA0A7006CCBF3 /* NSObject+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615971AAAA0A7006CCBF3 /* NSObject+Exception.m */; };
-		D6A6159E1AAAA0A7006CCBF3 /* NSString+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615991AAAA0A7006CCBF3 /* NSString+Exception.m */; };
+		EED78A881AC2B1C6001083E1 /* CoreExceptionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EED78A7D1AC2B1C6001083E1 /* CoreExceptionConst.m */; };
+		EED78A891AC2B1C6001083E1 /* NSArray+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = EED78A7F1AC2B1C6001083E1 /* NSArray+Exception.m */; };
+		EED78A8B1AC2B1C6001083E1 /* NSMutableArray+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = EED78A831AC2B1C6001083E1 /* NSMutableArray+Exception.m */; };
+		EED78A8C1AC2B1C6001083E1 /* NSObject+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = EED78A851AC2B1C6001083E1 /* NSObject+Exception.m */; };
+		EED78A8D1AC2B1C6001083E1 /* NSString+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = EED78A871AC2B1C6001083E1 /* NSString+Exception.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +45,16 @@
 		D6A6157F1AAAA096006CCBF3 /* CoreExceptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreExceptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A615841AAAA096006CCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A615851AAAA096006CCBF3 /* CoreExceptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreExceptionTests.m; sourceTree = "<group>"; };
-		D6A615901AAAA0A7006CCBF3 /* CoreExceptionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreExceptionConst.h; sourceTree = "<group>"; };
-		D6A615911AAAA0A7006CCBF3 /* CoreExceptionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreExceptionConst.m; sourceTree = "<group>"; };
-		D6A615921AAAA0A7006CCBF3 /* NSArray+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Exception.h"; sourceTree = "<group>"; };
-		D6A615931AAAA0A7006CCBF3 /* NSArray+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Exception.m"; sourceTree = "<group>"; };
-		D6A615941AAAA0A7006CCBF3 /* NSMutableArray+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Exception.h"; sourceTree = "<group>"; };
-		D6A615951AAAA0A7006CCBF3 /* NSMutableArray+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Exception.m"; sourceTree = "<group>"; };
-		D6A615961AAAA0A7006CCBF3 /* NSObject+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Exception.h"; sourceTree = "<group>"; };
-		D6A615971AAAA0A7006CCBF3 /* NSObject+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Exception.m"; sourceTree = "<group>"; };
-		D6A615981AAAA0A7006CCBF3 /* NSString+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exception.h"; sourceTree = "<group>"; };
-		D6A615991AAAA0A7006CCBF3 /* NSString+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exception.m"; sourceTree = "<group>"; };
+		EED78A7C1AC2B1C6001083E1 /* CoreExceptionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreExceptionConst.h; sourceTree = "<group>"; };
+		EED78A7D1AC2B1C6001083E1 /* CoreExceptionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreExceptionConst.m; sourceTree = "<group>"; };
+		EED78A7E1AC2B1C6001083E1 /* NSArray+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Exception.h"; sourceTree = "<group>"; };
+		EED78A7F1AC2B1C6001083E1 /* NSArray+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Exception.m"; sourceTree = "<group>"; };
+		EED78A821AC2B1C6001083E1 /* NSMutableArray+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Exception.h"; sourceTree = "<group>"; };
+		EED78A831AC2B1C6001083E1 /* NSMutableArray+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Exception.m"; sourceTree = "<group>"; };
+		EED78A841AC2B1C6001083E1 /* NSObject+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Exception.h"; sourceTree = "<group>"; };
+		EED78A851AC2B1C6001083E1 /* NSObject+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Exception.m"; sourceTree = "<group>"; };
+		EED78A861AC2B1C6001083E1 /* NSString+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exception.h"; sourceTree = "<group>"; };
+		EED78A871AC2B1C6001083E1 /* NSString+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exception.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		D6A615681AAAA096006CCBF3 /* CoreException */ = {
 			isa = PBXGroup;
 			children = (
-				D6A6158F1AAAA0A7006CCBF3 /* CoreException */,
+				EED78A7B1AC2B1C6001083E1 /* CoreException */,
 				D6A6156D1AAAA096006CCBF3 /* AppDelegate.h */,
 				D6A6156E1AAAA096006CCBF3 /* AppDelegate.m */,
 				D6A615701AAAA096006CCBF3 /* ViewController.h */,
@@ -135,19 +135,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D6A6158F1AAAA0A7006CCBF3 /* CoreException */ = {
+		EED78A7B1AC2B1C6001083E1 /* CoreException */ = {
 			isa = PBXGroup;
 			children = (
-				D6A615901AAAA0A7006CCBF3 /* CoreExceptionConst.h */,
-				D6A615911AAAA0A7006CCBF3 /* CoreExceptionConst.m */,
-				D6A615921AAAA0A7006CCBF3 /* NSArray+Exception.h */,
-				D6A615931AAAA0A7006CCBF3 /* NSArray+Exception.m */,
-				D6A615941AAAA0A7006CCBF3 /* NSMutableArray+Exception.h */,
-				D6A615951AAAA0A7006CCBF3 /* NSMutableArray+Exception.m */,
-				D6A615961AAAA0A7006CCBF3 /* NSObject+Exception.h */,
-				D6A615971AAAA0A7006CCBF3 /* NSObject+Exception.m */,
-				D6A615981AAAA0A7006CCBF3 /* NSString+Exception.h */,
-				D6A615991AAAA0A7006CCBF3 /* NSString+Exception.m */,
+				EED78A7C1AC2B1C6001083E1 /* CoreExceptionConst.h */,
+				EED78A7D1AC2B1C6001083E1 /* CoreExceptionConst.m */,
+				EED78A7E1AC2B1C6001083E1 /* NSArray+Exception.h */,
+				EED78A7F1AC2B1C6001083E1 /* NSArray+Exception.m */,
+				EED78A821AC2B1C6001083E1 /* NSMutableArray+Exception.h */,
+				EED78A831AC2B1C6001083E1 /* NSMutableArray+Exception.m */,
+				EED78A841AC2B1C6001083E1 /* NSObject+Exception.h */,
+				EED78A851AC2B1C6001083E1 /* NSObject+Exception.m */,
+				EED78A861AC2B1C6001083E1 /* NSString+Exception.h */,
+				EED78A871AC2B1C6001083E1 /* NSString+Exception.m */,
 			);
 			path = CoreException;
 			sourceTree = "<group>";
@@ -252,14 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED78A8C1AC2B1C6001083E1 /* NSObject+Exception.m in Sources */,
 				D6A615721AAAA096006CCBF3 /* ViewController.m in Sources */,
-				D6A6159E1AAAA0A7006CCBF3 /* NSString+Exception.m in Sources */,
+				EED78A8D1AC2B1C6001083E1 /* NSString+Exception.m in Sources */,
+				EED78A8B1AC2B1C6001083E1 /* NSMutableArray+Exception.m in Sources */,
 				D6A6156F1AAAA096006CCBF3 /* AppDelegate.m in Sources */,
-				D6A6159A1AAAA0A7006CCBF3 /* CoreExceptionConst.m in Sources */,
+				EED78A881AC2B1C6001083E1 /* CoreExceptionConst.m in Sources */,
 				D6A6156C1AAAA096006CCBF3 /* main.m in Sources */,
-				D6A6159D1AAAA0A7006CCBF3 /* NSObject+Exception.m in Sources */,
-				D6A6159B1AAAA0A7006CCBF3 /* NSArray+Exception.m in Sources */,
-				D6A6159C1AAAA0A7006CCBF3 /* NSMutableArray+Exception.m in Sources */,
+				EED78A891AC2B1C6001083E1 /* NSArray+Exception.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +452,7 @@
 				D6A6158B1AAAA096006CCBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6A6158C1AAAA096006CCBF3 /* Build configuration list for PBXNativeTarget "CoreExceptionTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +461,7 @@
 				D6A6158E1AAAA096006CCBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

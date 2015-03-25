@@ -20,19 +20,14 @@
     Class class=NSClassFromString(CoreExceptionArrayM);
 
     //对象方法区
-    //1.数组越界
-    [self swizzleInstanceMethodInClass:class newMethodSelector:@selector(objectWithNoExceptionAtIndex:) originalMethodSelector:@selector(objectAtIndex:)];
-    
+    //1.数组越界:无法处理
+
     //2.添加空对象
     [self swizzleInstanceMethodInClass:class newMethodSelector:@selector(addNoExceptionObject:) originalMethodSelector:@selector(addObject:)];
     
     //3.添加空数组
     [self swizzleInstanceMethodInClass:class newMethodSelector:@selector(addNoExceptionObjectsFromArray:) originalMethodSelector:@selector(addObjectsFromArray:)];
 }
-
-
-
-
 
 
 
@@ -68,20 +63,6 @@
 
 
 
-#pragma mark  处理数组越界的错误
--(id)objectWithNoExceptionAtIndex:(NSUInteger)index{
-    
-    NSUInteger count=self.count;
-    
-    if(index>=count){
-        
-        NSLog(@"Warinning:可变数组出现越界。数组长度为：%i,请求的长度为：%i，\n当前数组为：%@",count,index,self);
-        
-        return nil;
-    }
-    
-    return [self objectWithNoExceptionAtIndex:index];
-}
 
 
 

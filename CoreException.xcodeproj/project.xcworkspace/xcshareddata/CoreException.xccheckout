@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20A4F804-E8A0-46DC-A2E7-9A7470AC3322</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoreException</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9889DD1E161E09C08D5726EA4946BACE7406B625</key>
+		<string>https://github.com/nsdictionary/CoreException.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreException.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9889DD1E161E09C08D5726EA4946BACE7406B625</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nsdictionary/CoreException.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9889DD1E161E09C08D5726EA4946BACE7406B625</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9889DD1E161E09C08D5726EA4946BACE7406B625</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreException</string>
+		</dict>
+	</array>
+</dict>
+</plist>

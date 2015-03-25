@@ -18,12 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *array=@[@"对象1",@"对象2"];
+
+    NSDictionary *dict=@{@"name":@"mj"};
     
-    NSString *str=array[3];
+    [dict objectForKey:@"123"];
     
-    NSLog(@"%@",str);
-    
+}
+
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
 }
 
 @end

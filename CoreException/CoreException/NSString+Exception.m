@@ -35,7 +35,6 @@
     NSUInteger length=self.length;
     
     if(from>=length){
-        NSLog(@"Warinning:尝试截取字符串长度出现异常，字符串长度=%i，您想截取的起点=%i，字符串为=%@。",length,from,self);
         return @"";
     }
     
@@ -47,7 +46,6 @@
     NSUInteger length=self.length;
     
     if(to>=length){
-        NSLog(@"Warinning:尝试截取字符串长度出现异常，字符串长度=%i，您想截取的终点=%i，字符串为=%@。",length,to,self);
         return @"";
     }
     
@@ -64,7 +62,6 @@
     NSUInteger len=range.length;
     
     if(loc>length || loc + len>length){
-        NSLog(@"Warinning:尝试截取字符串长度出现异常，字符串长度=%i，您想截取的range=%@，字符串为=%@。",length,NSStringFromRange(range),self);
         return @"";
     }
     
